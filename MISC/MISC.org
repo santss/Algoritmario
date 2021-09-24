@@ -1,0 +1,40 @@
+#+TITLE: MISC
+* Índice :toc:
+- [[#introducción][Introducción]]
+- [[#hacer-el-cin-y-cout-más-rápidos][Hacer el cin y cout más rápidos]]
+- [[#usar-gdb][Usar GDB]]
+- [[#priority-queues-de-menor-a-mayor][Priority Queues de menor a mayor]]
+
+* Introducción
+
+MISC = MISCELLANEOUS
+
+* Hacer el cin y cout más rápidos
+
+#+begin_src C++
+ios_base::sync_with_stdio(false);
+cin.tie(NULL);
+#+end_src
+
+* Usar GDB
+
+1. Compilas el programa con la bandera =-g=.
+2. Inicias =gdb ./a.out=
+3. Pones el comando =layout src=, si estás en Emacs ~M-x gdb~
+
+* Priority Queues de menor a mayor
+Hay dos opciones, una priority_queue que sea de mayor a menor.
+#+begin_src C++
+priority_queue<int> pq;
+#+end_src
+Si quieres tener una priority_queue de menor a mayor tienes dos opciones.
+
+1. La primera es cada que insertas un elemento lo multiplicas por -1.
+   #+begin_src C++
+   pq.insert(a*-1);
+   #+end_src
+
+2. La segunda es con una priority_queue y un greater.
+   #+begin_src C++
+   priority_queue<int,vector<int>,greater<int>>pq;
+   #+end_src

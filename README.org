@@ -1,0 +1,15 @@
+#+TITLE: README
+
+* Índice :toc:
+- [[#introducción][Introducción]]
+- [[#organización-del-repo][Organización del repo]]
+
+* Introducción
+
+Mi copia del Algoritmario del equipo /TinMarin/.
+
+* Organización del repo
+
+El repo está organizado de la siguiente forma:
+- [[./Algoritmario/Algoritmario.org][Algoritmario]]: Tiene el archivo de los algoritmos que hemos ido almacenando.
+- [[./MISC/MISC.org][MISC]]: Todo lo que no sea el algorimario va aquí (por ejemplo los casos de *estupiditis aguda*, cómo usar un debugger (GDB), acelerar el =cout=, etc.).
