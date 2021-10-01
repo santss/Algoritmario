@@ -3,9 +3,10 @@
 Para prevenir la estupiditis revisa esta lista antes de mandarlo.
 
 1. No dedicarle más de una hora a un problema.
-2. Leer el problema de nuevo si tienes un time limit exceeded.
-3. No usar long long
-4. No reservar suficiente memoria.
-5. Usar módulo
-6. Usa acelerador de salida si es C++.
-7. No mezcles =scanf= con =cin= y =printf= con =cout=.
+2. Reinicia los contadores a 0.
+3. Leer el problema de nuevo si tienes un time limit exceeded.
+4. No usar long long
+5. No reservar suficiente memoria.
+6. Usar módulo
+7. Usa acelerador de salida si es C++.
+8. No mezcles =scanf= con =cin= y =printf= con =cout=.
